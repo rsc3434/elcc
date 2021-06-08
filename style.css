@@ -41,6 +41,13 @@ h6 {
     color: #d8d8d8;
 }
 
+hr{
+    width: 300px;
+    height: 2px;
+    background-color: rgb(29, 172, 238);
+}
+
+
 button {
     font-size: 0.8rem;
     font-weight: 700;
@@ -95,6 +102,14 @@ button:hover {
     .shop{
     
       margin-left: 15vh;
+    }
+    #banner{
+        background-image:  url("img/rrrrrrrrrrrrrrr.jpg") !important;
+         height: 50vh;
+        width: 100% !important;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: 5vh;
     }
     
     /* .dev {
@@ -157,16 +172,73 @@ button:hover {
     }
 
     #home {
-        height: 100vh;
+        height: 80vh;
         margin-top: 10vh;
     }
 
     .dev {
  
-        height: 70vh;
+        height: 80vh;
         width: 100%;
         background-size: cover;
     }
     .data{
         margin-top: 15vh;
     }
+/* 
+    .b-logo{
+        height: 70vh;
+        width: 100%;
+        margin-top: -5vh;
+    } */
+
+    .eee:hover{
+        box-shadow: 2px 2px 4px 4px black;
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+
+      .product{
+           /* height: 80vh; */
+        }
+
+        .product:hover{
+            transform: scale(1.1);
+            /* background-color:  rgba(247, 236, 236, 0.705); */
+
+        }
+
+        .pro-img{
+            height: 30vh;
+            margin-top: 2vh;
+        }
+
+        .product .buy-btn{
+            background-color: #fb774b;
+            /* transform: translatey(20px); */
+            opacity: 0;
+            transition: 0.3s all;
+        }
+        .product:hover .buy-btn{
+             /* transform: translatey(20px); */
+            opacity: 1;
+         }
+
+         #banner{
+             background-image:  url("img/pngtree-black-friday-simple-banner-vector-design-image_440282.jpg");
+             background-repeat: no-repeat;
+             height: 50vh;
+             width: 100%;
+             background-size: cover;
+             background-attachment: fixed;
+             margin-top: 5vh;
+         }
+
+         footer{
+             background-color: #000;
+             color: white;
+             margin-top: 5vh;
+         }
+         .link a{
+             color:  white;
+         }
