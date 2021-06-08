@@ -92,14 +92,25 @@ button:hover {
     #home{
         margin-top: 20vh !important;
     }
-
+    .shop{
     
-    .dev {
+      margin-left: 15vh;
+    }
+    
+    /* .dev {
        margin-left: -41px !important;
           height: 51vh !important;
         width: 178% !important;
         background-size: cover;
-    }
+    } */
+    .dev{
+        height: 50vh !important;
+     }
+     .data{
+        margin-top: -5vh !important;
+
+     }
+
 }
 
     .logo {
@@ -156,6 +167,6 @@ button:hover {
         width: 100%;
         background-size: cover;
     }
-.data{
-    margin-top: 15vh;}
-
+    .data{
+        margin-top: 15vh;
+    }
